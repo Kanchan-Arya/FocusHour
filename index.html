@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Focus Hour</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="logo" href="#">📖 Focus Hour</a>
+    <span class="tagline">your little study corner</span>
+  </header>
+
+  <main class="container">
+    <section class="welcome">
+      <p class="eyebrow">A LITTLE PROGRESS EVERY DAY ✨</p>
+      <h1>Small steps,<br><span>big dreams.</span></h1>
+      <p>Take a breath, grab your notes, and let's bloom today.</p>
+      <div class="date" id="today"></div>
+    </section>
+
+    <section class="progress-card">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">YOUR DAILY GOALS</p>
+          <h2>Look at you growing! 🌱</h2>
+        </div>
+        <span id="progress-text">0%</span>
+      </div>
+      <div class="progress-track">
+        <div id="progress-bar"></div>
+      </div>
+      <p id="progress-message">Every little step counts 💗</p>
+    </section>
+
+    <div class="dashboard">
+      <section class="card tasks-card">
+        <p class="eyebrow">YOUR TO-DO LIST</p>
+        <h2>Today's study plan 📚</h2>
+        <form id="task-form">
+          <input
+            id="task-input"
+            type="text"
+            placeholder="What will you study today?"
+            maxlength="100"
+            required
+          >
+          <button type="submit" aria-label="Add task">+</button>
+        </form>
+        <ul id="task-list"></ul>
+        <p class="hint">One task at a time. You've got this! 🌷</p>
+      </section>
+
+      <section class="card timer-card">
+        <p class="eyebrow">YOUR FOCUS CORNER</p>
+        <h2>Time to bloom 🌸</h2>
+        <p class="timer-subtitle">A little focus goes a long way.</p>
+        <div class="timer" id="timer">59:00</div>
+        <div class="timer-buttons">
+          <button id="start-btn">Start focus</button>
+          <button id="reset-btn" class="secondary">Reset</button>
+        </div>
+        <p id="timer-message">You've got 59 minutes. Make them yours!</p>
+      </section>
+    </div>
+
+    <section class="quote">
+      <span>♡</span>
+      <p>You don't have to be perfect. You just have to begin.</p>
+      <span>♡</span>
+    </section>
+  </main>
+  
+</body>
+</html>
