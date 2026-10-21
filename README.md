@@ -18,9 +18,14 @@ Focus Hour is a minimal, calming study productivity website designed to help stu
 - CSS
 - JavaScript
 
-## 🚀 Live Demo
+## 🚀 Live Website
 
-[Visit Focus Hour](https://kanchan-arya.github.io/FocusHour/)
+<p align="center">
+  <a href="https://kanchan-arya.github.io/FocusHour/">
+    <strong>✨ Visit Focus Hour ✨</strong>
+  </a>
+</p>
+
 
 ## 💻 Run Locally
 
@@ -47,6 +52,3 @@ FocusHour/
 
 Focus Hour was created to make studying feel more organized, calm, and manageable — one session at a time.
 
----
-
-Made with 🤎 and a little focus.
